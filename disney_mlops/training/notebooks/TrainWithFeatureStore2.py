@@ -1,6 +1,6 @@
 # Databricks notebook source
 ##################################################################################
-# Model Training Notebook using Databricks Feature Store --- new feature abc 20251001
+# Model Training Notebook using Databricks Feature Store --- new feature abc 20250921
 #
 # This notebook shows an example of a Model Training pipeline using Databricks Feature Store tables.
 # It is configured and can be executed as the "Train" task in the model_training_job workflow defined under
@@ -277,7 +277,7 @@ fe.log_model(
 )
 
 
-# The returned model URI is needed by the model deployment notebook.20250919
+# The returned model URI is needed by the model deployment notebook.
 model_version = get_latest_model_version(model_name)
 model_uri = f"models:/{model_name}/{model_version}"
 dbutils.jobs.taskValues.set("model_uri", model_uri)

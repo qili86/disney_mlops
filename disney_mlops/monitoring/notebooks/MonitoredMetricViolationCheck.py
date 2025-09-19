@@ -4,7 +4,7 @@
 #
 # This notebook has the following parameters:
 #
-#  * table_name_under_monitor (required)  - The name of a table that is currently being monitored
+#  * table_name_under_monitor (required)  - The name of a table that is currently being monitored pr2
 #  * metric_to_monitor (required)  - Metric to be monitored for threshold violation
 #  * metric_violation_threshold (required)  - Threshold value for metric violation
 #  * num_evaluation_windows (required)  - Number of windows to check for violation
